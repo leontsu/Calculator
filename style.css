@@ -1,0 +1,40 @@
+html, body { 
+    height: 100%;
+    margin: 0; /* Ensure no default margin on the body */
+}
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right, blue, green);
+    display: flex; /* Enable flexbox on the body */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+}
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.calc {
+    background: gray; /* Optional: to make it stand out */
+    padding: 20px;
+    border-radius: 10px; /* Optional: rounded corners */
+}
+#out {
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: right;
+    width: 270px;
+    height: 50px;
+    font-size: 40px;
+}
+.func {
+    background-color: #494949;
+    color: white;
+}
+.clear  {
+    background-color: #E42B4E;
+    color: white;
+}
